@@ -1,0 +1,81 @@
+body {
+    background-image: url("Images/back.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+#board {
+    padding: 15px;
+    display: inline-block;
+    background-image: url("Images/board.jpg");
+}
+
+#score {
+    font-family: Georgia, serif;
+    text-shadow: 3px 4px 7px rgba(0,0,0,0.8);
+    color: white;
+    font-size: 1.5vw;
+}
+
+.cell {
+    display: inline-block;
+    width: 5vw;
+    height: 5vw;
+    margin: 0px;
+    max-height: 9.5vh;
+    max-width: 9.5vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.black {
+    background-image: url("Images/blacktile.png");
+}
+
+.white {
+    background-image: url("Images/whitetile.png");
+}
+
+.checker {
+    margin: 10%;
+    border-radius: 50%;
+    height: 80%;
+    width: 80%;
+}
+
+.black-piece {
+    background-image: url("Images/black.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.white-piece {
+    background-image: url("Images/white.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.white-piece.king {
+    background-image: url("Images/crown.png"),  url("Images/white.png");
+    background-position: center, center;
+    background-size: 50%, cover;
+    background-repeat: no-repeat;
+}
+
+.black-piece.king {
+    background-image: url("Images/crown.png"),  url("Images/black.png");
+    background-position: center, center;
+    background-size: 50%, cover;
+    background-repeat: no-repeat;
+}
+
+.dot {
+    margin: 40%;
+    border-radius: 50%;
+    height: 20%;
+    width: 20%;
+    background-color: yellow;
+}
