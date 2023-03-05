@@ -1,1 +1,2 @@
 # GHPagesRep
+Служебный для Pages
